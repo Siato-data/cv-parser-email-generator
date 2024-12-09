@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Ignore everything inside the resumes folder
+app_parsing/data/resumes/*
+
+# Ignore everything inside the output folder except the emails folder
+app_parsing/data/output/*
+!app_parsing/data/output/emails/
+
+# Ignore everything inside the emails folder
+app_parsing/data/output/emails/*
+
+# Ignore Python bytecode files
+**/__pycache__/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore build/compiled files
+.egg/
+.eggs/
+dist/
+build/
+
+# Ignore virtual environment folders
+venv/
+env/
